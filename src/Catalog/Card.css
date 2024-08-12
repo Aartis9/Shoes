@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px){
+    .CardImg img{
+        width:20vh !important;
+        height: 16vh !important;
+        margin-top: 3vh !important;
+        margin-bottom: 2vh !important;
+        
+    }
+    .CardMain{
+      height: 30vh !important;
+      margin-bottom: 5vh !important;
+    }
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+    .MidMain{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        gap: 0;
+    }
+    
+}

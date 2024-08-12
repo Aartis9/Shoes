@@ -1,0 +1,99 @@
+.Sidebar3{
+    margin: 0;
+    padding: 0;
+    height:50vh;
+    width: 100vw;
+   
+    background: radial-gradient(circle at -8% 188%, #ff626d 19%, #fcad72 50%);
+    background-repeat: no-repeat;
+}
+.shoes-main{
+    background:#333235;
+}
+.Sidebar3a{
+    font-size: 1.9rem;
+    margin-top: ;
+    
+}
+/* .copyCode{
+    
+    margin-top: vh;
+ 
+} */
+.Sidebar2{
+   height: 12vh;
+   width:8vw;
+   background: rgb(41, 38, 38);
+   border-radius: 50%;
+   /* position: absolute;
+   top: 70%;
+   left: 34%; */
+   margin-top: 9vh;
+   margin-left: 6vw;
+}
+.Sidebar4{
+    height: 8vh;
+    width:12vw;
+
+
+    position: absolute;
+    top: 58%;
+    left: 16%;
+    rotate:25deg;
+}
+.Sidebar3 h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: beige;
+    position: absolute;
+    top:5%;
+    left:15%;
+}
+
+.Sidebarh3{
+    /* font-size: 1rem;
+    font-weight: 700; */
+    /* position: absolute;
+    top:5%;
+    left:25%; */
+    height: 10vh;
+    color: beige;
+ 
+  
+
+}
+.Sidebarh3 h3{
+    position: absolute;
+    top:23%;
+    left:20%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Sidebarh3 span{
+    color:#333235;
+}
+@media (max-width: 768px) {
+   .Sidebar3 h1{
+         font-size: 3.5rem;
+         font-weight: 700;
+         color: beige;
+         position: absolute;
+         top:5%;
+         left:10%;
+   }
+   .copyCode button{
+    width: 55vw !important;
+   }
+    .Sidebar2{
+        height: 15vh !important;
+        width: 30vw !important;
+        margin-top:7vh !important;
+        margin-left:20vw !important;
+    }
+    .Sidebar4{
+        height: 50vw !important;
+        width: 60vw !important;
+        top:  58% !important;
+        left: 2% !important;
+    }
+}

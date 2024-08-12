@@ -1,0 +1,12 @@
+.footer-container{
+    min-width: 100vw;
+    
+    color: aliceblue;
+    margin-right:255px;
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   
+}

@@ -1,9 +1,10 @@
 import React from 'react'
+
 // import Navbare from './Navbare.jsx'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Home from './Home.jsx'
-import Catalog from './Catalog.jsx'
+import Catalog from './Catalog/Catalog.jsx'
 import Product from './Product.jsx'
 import Contact from './Contact.jsx'
 import Support from './Support.jsx'

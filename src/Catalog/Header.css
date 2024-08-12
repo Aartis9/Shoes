@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .headerSearch{
+        width:60%;
+        margin-right:15px;
+        margin-left: 30px;
+    }
+    .Header-main{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Header-icons{
+      margin-left: 0px!important;
+    }
+   
+}
