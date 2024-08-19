@@ -1,14 +1,15 @@
 .heromain{
     background: radial-gradient(circle at 5% 55%,#ff626d 27%,#fcad72 70%);
     background-repeat: no-repeat;
-    height:50vh;
+    height:55vh;
     width: 100vw;
     margin-bottom: 10px;
+    margin-top: 0px;
     margin-left:8px;
 }
 .hero1{
     position: absolute;
-    top:10%;
+    top:23%;
     left:16%;
     margin-top: 5vh;
     margin-left: 45vw;
@@ -23,7 +24,7 @@
     flex-direction: column;
     z-index: 100;
     position: absolute;
-    top:20%;
+    top:30%;
     left:40%;
     /* width: 40vw; */
     font-family:sans-serif;
@@ -49,14 +50,14 @@
 }
 .hero3-img{
     position: absolute;
-    top:20vh;
+    top:30vh;
     
     height: 40vh;
     width: 40vw;
 }
 .hero4-img{
     position: absolute;
-    top:13vh;
+    top:30vh;
     left: 68vw;
     height: 35vh;
     width: 20vw;
@@ -69,6 +70,7 @@
         width: 100vw;
         margin: 0;
         padding: 0;
+        overflow-x: hidden !important;
        
     }
     .hero1{
@@ -81,7 +83,7 @@
         border-radius: 50%;
         background-color: #333235; */
         position: absolute;
-        top:42%;
+        top:2%;
         left:-25%;
         height: 50vw;
         width: 50vw;

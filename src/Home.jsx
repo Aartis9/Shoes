@@ -3,8 +3,11 @@ import './Home.css'
 import s1 from './assets/s1.png'
 import s22 from './assets/s22.png'
 import Product from './Product.jsx'
+import Navbare from './Navbare.jsx'
+// import Slider from './Slider.jsx'
 function Home() {
   return (
+    <div><Navbare/>
     <div className="main-div">
         <div className="nike1">NIKE</div>
 
@@ -43,6 +46,9 @@ function Home() {
         <div className="after-svg"></div>
         <div className="wrrr">AIR <h8>JORDAN</h8></div>
         
+    </div>
+     <Product/>
+     {/* <Slider/> */}
     </div>
   )
 }

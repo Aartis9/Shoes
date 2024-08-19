@@ -17,14 +17,14 @@ const Sidebar = () => {
           Catalog
         </button>
         
-        <div className="collapse show" id="dashboard-collapse">
+        {/* <div className="collapse show" id="dashboard-collapse">
           <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Weekly</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a></li>
             <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
           </ul>
-        </div>
+        </div> */}
       </li>
 
       <li className="mb-1">

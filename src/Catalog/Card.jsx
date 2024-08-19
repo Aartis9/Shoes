@@ -6,7 +6,7 @@ function Card(props) {
         <div className={(Math.floor(props.col/5)%2==0)?((props.col%2==0)?"lg:w-[15.5vw] w-[48.5vw]  h-[35vh] bg-[#4e4e50] p-2 flex flex-col rounded-br-3xl":" lg:w-[15.5vw] w-[48.5vw]  h-[35vh] bg-[#333335] p-2 flex flex-col rounded-br-3xl")
           :((props.col%2==1)?" lg:w-[15.5vw] w-[48.5vw]  h-[35vh] bg-[#333335] p-2 flex flex-col rounded-br-3xl":" lg:w-[15.5vw] w-[48.5vw]  h-[35vh] bg-[#4e4e50] p-2 flex flex-col rounded-br-3xl")}>
         <div className="flex flex-row justify-between">
-                <span className="text-lg text-gray-50 font-bold">STREAT</span>
+                <span className="text-[1rem]">STREAT</span>
 
                 <button className="bg-orange-500 text-white text-center font-bold px-3 py-0.5 rounded-lg">Buy</button>
         </div>
@@ -17,8 +17,8 @@ function Card(props) {
         <div className="flex flex-col gap-4">
             <div className="flex flex-row justify-between">
             <div className="flex flex-col">
-                <span className="text-xl text-gray-50 font-bold">{props.name}</span>
-                <span className="font-bold  text-white">Pricing  ${props.price}</span>
+                <span className="text-[1rem] ">{props.name}</span>
+                <span className="text-[1rem]">Pricing  ${props.price}</span>
             </div>
             <span className="font-bold  text-white">🤍</span>
             </div>

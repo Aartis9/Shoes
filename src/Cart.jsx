@@ -8,10 +8,11 @@ import s8 from './assets/s8.png'
 import s1 from './assets/s1.png'
 import s7 from './assets/s7.png'
 import './Cart.css'
+import Navbare from "./Navbare"
 
 function Cart() {
   return (<>
-
+  <Navbare/>
     <div className="min-h-[100vh] grid grid-cols-1 md:grid-cols-[1fr_400px] bg-[#4e4e52] text-white gap-6 p-4  md:p-8">
 
       <div className="flex flex-col ml-10 gap-6">

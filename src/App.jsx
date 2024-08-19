@@ -16,14 +16,14 @@ import Slider from './Slider.jsx'
 function App() {
   return (
     <>
-      <Navbare/>
+      
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Catalog' element={<Catalog />} />
           {/* <Route path='Reviews' element={<Reviews />} /> */}
-          <Route path='Contact' element={<Contact />} />
-          <Route path='Support' element={<Support/>} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Support' element={<Support/>} />
           <Route path='/Cart' element={<Cart />} />
           <Route path = '/Testim' element={<Testim />} />
           <Route path = '/Slider' element={<Slider />} />

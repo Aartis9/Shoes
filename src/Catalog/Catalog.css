@@ -19,7 +19,10 @@
   background-color:#333235;
   box-shadow: 10px;
  }
- 
+ .main{
+  background-color: #232227;
+
+ }
  /* .footer-container{
   min-width: 100vw;
   
@@ -27,7 +30,7 @@
  } */
   @media screen and (max-width: 768px){
     .main{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .s-container{
       display: flex;

@@ -2,24 +2,30 @@
     margin: 0;
     padding: 0;
     height:50vh;
-    width: 100vw;
+    
+    overflow-x: hidden;
    
-    background: radial-gradient(circle at -8% 188%, #ff626d 19%, #fcad72 50%);
+    background: radial-gradient(circle at 2% 288%, #ff626d 69%, #fcad72 90%);
     background-repeat: no-repeat;
 }
-.shoes-main{
+.Shoes-main{
     background:#333235;
+      
+    
 }
 .Sidebar3a{
-    font-size: 1.9rem;
-    margin-top: ;
+    font-size: 1.2rem;
+    margin-right: 30px;
+    position: absolute;
+    left:16vw;
+   
     
 }
-/* .copyCode{
+.copyCode{
     
-    margin-top: vh;
+   width:20vw;
  
-} */
+}
 .Sidebar2{
    height: 12vh;
    width:8vw;
@@ -42,7 +48,7 @@
     rotate:25deg;
 }
 .Sidebar3 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 700;
     color: beige;
     position: absolute;

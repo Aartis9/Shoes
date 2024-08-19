@@ -1,9 +1,15 @@
 import React from "react"
 import './Sidebar.css'
 import a44 from '../assets/a44.png'
+import Home from '../Home.jsx'
+
 import { IoIosCopy } from "react-icons/io";
 const Sidebar = () => {
-  
+  function myHome(){
+    return(
+      <Home/>
+    )
+  }
     return(
     <div className="Shoes-main">
     <div  className="  d-flex flex-column flex-shrink-0 w-[280px] lg:relative lg:w-[20vw]  sidebar">
@@ -17,38 +23,38 @@ const Sidebar = () => {
     <div className="sidebar1">
     <ul className="nav nav-pills flex-column mb-auto items-center ">
       <li className="nav-item">
-        <a href="#" className="nav-link text-red-500">
+        <a href="/" className="nav-link text-white  hover:bg-red-700 ">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#home"></use></svg>
-          Home
+            Home
         </a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link text-white">
+        <a href="/Catalog" className="nav-link text-white hover:bg-red-700">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#speedometer2"></use></svg>
             Catalog
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
+        <a href="/Product" className="nav-link text-white hover:bg-red-700">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
             Brands
             
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
+        <a href="/Testim" className="nav-link text-white hover:bg-red-700">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#grid"></use></svg>
             Reviews
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
+        <a href="/Contact" className="nav-link text-white hover:bg-red-700">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
             Contact
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link text-white">
+        <a href="/Support" className="nav-link text-white hover:bg-red-700">
           <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
             Support
         </a>
@@ -68,7 +74,7 @@ const Sidebar = () => {
              <h3>  promo  <span> code</span> </h3>
           </div>
           <div className="copyCode">
-          <button className="bg-white text-black text-center w-[15%] ml-[30px] mt-[10vh] font-2xl flex gap-[80px] px-3 py-0.5 rounded-lg ">BR356789201
+          <button className="bg-white text-black text-center w-[80%] ml-[30px] mt-[10vh] font-2xl flex gap-[80px] px-3 py-0.5 rounded-lg ">BR356789201
             <div className="Sidebar3a"><IoIosCopy /></div>
           </button>
           </div>

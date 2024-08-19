@@ -5,12 +5,13 @@ import { IoBagAddOutline } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 const Menu = () => (
   <>
-    <p><a href='/'>Home</a></p>
     <p><a href='/Catalog'>Catalog</a></p>
+    <p><a href='/'>Home</a></p>
+    
     <p><a href='/Product'>Product</a></p>
     <p><a href='/Testim'>Reviews</a></p>
     <p><a href='/Contact'>Contact</a></p>
-    <p><a href='/Support'>Support</a></p>   
+       
   </>
 )
 const Navbare = () => {
